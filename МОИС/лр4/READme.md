@@ -20,7 +20,7 @@ Also there is the `author` of the message.
 of the action as the user, and the city in which the user is located as the user's location;
 * Then the necessary construction is generated to call the agent of non-atomic action interpretation. An example of this construction is shown below.
 
-![https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/interpretation.png]
+![МОИС](https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/interpretation.png)
 
 * The agent waits until the interpretation agent finishes its work. Then searches for the set of rules that should have been generated during the interpretation
 agent's work and uses it to generate relation between the user and object from a set of recommendations, which includes to_take_umbrella_recommendation and
@@ -30,11 +30,11 @@ not_to_take_umbrella_recommendation.
 
 Example of an input structure:
 
-![https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/input.png]
+![МОИС](https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/input.png)
 
 Example of an output structure:
 
-![https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/output.png]
+![МОИС](https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/output.png)
 
 ### Result
 
