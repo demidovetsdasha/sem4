@@ -8,7 +8,7 @@ Is an agent that generates recommendation to take umbrella or not depending on w
 
 
 **Parameters:**
-
+?????
 1. `linkAddr` -- sc-link with user message text;
 2. `dialogAddr` -- dialog node, an element of `concept_dialogue`.
 
@@ -32,7 +32,7 @@ Example of an input structure:
 
 ![МОИС](https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/input.png)
 
-Example of an output structure:
+Example of a logic rule:
 
 ![МОИС](https://github.com/demidovetsdasha/sem4/blob/main/%D0%9C%D0%9E%D0%98%D0%A1/%D0%BB%D1%804/output.png)
 
