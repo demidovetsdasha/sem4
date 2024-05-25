@@ -1,6 +1,6 @@
 #  Take umbrella agent
 
-Is an agent that generates recommendation to take umbrella or not depending on weather in the city, associates with the original relation "nrel_recommendation_for_user"
+Is an agent that generates recommendation to take umbrella or not depending on weather in the city where user is located, associates with the original relation "nrel_recommendation_for_user"
 
 **Action class:**
 
@@ -40,5 +40,5 @@ Example of a logic rule:
 
 Possible result codes:
  
-* `SC_RESULT_OK` - need to take umbrella;
-* `SC_RESULT_ERROR`- there is no need in umbrella.
+* `SC_RESULT_OK` - agent successfully generate recommendation to take umbrella or not;
+* `SC_RESULT_ERROR`- needed entities for getting recommendation were not found.
